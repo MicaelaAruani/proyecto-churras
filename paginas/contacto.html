@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    
+    <link rel="stylesheet" href="../css/estilos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Roboto+Flex:opsz,wght@8..144,200;8..144,400;8..144,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/jam-icons/css/jam.min.css">
+</head>
+
+<body>
+    <!--Inicio del header-->    
+    <header class="header">
+        <a href="../index.html">
+        <img class="header__logo" src="../imagenes/logo.churras.jpeg" alt="Logo de CHURRAS"></a>
+        <a href="#menu" class="header__icono">
+            <span class="jam jam-menu"></span>
+        </a>
+        <nav class="nav" id="menu">
+            <ul class="nav__lista">
+                <li class="nav__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav__item">
+                    <a href="../paginas/productos.html">Productos </a>
+                </li>
+                <li class="nav__item">
+                    <a href="../paginas/nosotras.html">Nosotras </a>
+                </li>
+                <li class="nav__item">
+                    <a href="../paginas/galeria.html">Galeria </a>
+                </li>
+                <li class="nav__item">
+                    <a href="../paginas/contacto.html">Contacto</a>
+                </li>
+                <li class="nav__item nav__item-oculto">
+                    <a href="#cerrado">❌</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fin del header-->
+
+    <!--Inicnio de la seccion contacto-->
+    <main class="main2">
+        <section>
+            <div>
+                <article>
+                    <h2 class="main_titulo margen_queries">Contactanos</h2>
+                    <h3 class="main_titulo2" >Habla con nosotras</h3>
+                    <p class="escribinos">Escribinos si tenes alguna consulta o si querés comprar nuestros productos.</p>
+                </article>
+            </div>
+            <div class="div_contacto">
+                <p> <strong>Email: </strong>churras@gmail.com</p>
+                <p> <strong>WhatsApp: </strong>+54 9 261 2566-361</p>
+                <p> <strong>Instagram: </strong>churras.mza</p>
+            
+            </div>
+            <div class="formulario">
+            <div>
+                <label for="nombre" class="form-label">Nombre:</label>
+                <input type="text" id="nombre" class="form-control" placeholder="Ingrese su nombre" required>
+            </div>
+            <div>
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control"placeholder="Ingrese su correo" required>
+            </div>
+            <div>
+                <label for="mensaje" class="form-label">Mensaje:</label>
+                <textarea id="mensaje" class="form-control" rows="3" required></textarea>
+                <button type="submit">Enviar</button>
+            </div>
+        </div>
+        </section>
+    </main>
+    <!--Fin de la seccion contacto-->
+
+    <!--Inicio footer-->
+    <footer class="footer">
+        <div class="footer_flex">
+            <div class="footer_izq">
+                <h3 class="footer_titulo">Somos CHURRAS</h3>
+                <p class="footer_texto1"> Somos una empresa de Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, obcaecati! Doloremque corporis vitae distinctio soluta tempore aperiam error atque veritatis! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, perferendis!</p>
+            </div>
+            <div class="footer_der">
+                <p class="footer_texto2"> Seguinos en nuestras redes para enterarte de las promos y realizar tu compra.</p>
+            </div>
+        </div>
+        <div class="red-social">
+            <a href="https://www.instagram.com/churras.mza/" target="_blank">
+            <img class="red_icono" src="../imagenes/instagram.jpg" alt="logo instagram"></a>
+            <a href="https://wa.me/542612566361" target="_blank">
+            <img class="red_icono" src="../imagenes/whatsapp.jpg" alt="WhatsApp logo"></a>
+        </div>  
+        <div class="copy">
+            <p>Todos los derechos reservados &copy; 2022</p>
+        </div>
+    </footer>
+    <!--Fin de footer-->
+</body>
+</html>
