@@ -1,0 +1,39 @@
+.main{
+    background-image: url(../imagenes/productos.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 500px;    
+    min-height: 100vh;
+    margin-top: 100px;
+}
+
+.titulo{
+    color: black;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 1.5; 
+    text-transform:uppercase; 
+    text-decoration: none;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
+}
+
+.parrafo{
+    color: black;
+    font-size: 22px;
+    font-style:normal;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 2; 
+    text-transform:initial; 
+    text-decoration: none;
+    padding: 0px 300px 0px 300px;
+}
