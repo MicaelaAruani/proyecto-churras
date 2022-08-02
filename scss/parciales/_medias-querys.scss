@@ -76,9 +76,11 @@
         font-size: 22px;
     }
 
-    .tienda_img{
-        width: 250px;
-        height: 250px;
+    .section_tienda{
+        .tienda_img{
+            width: 250px;
+            height: 250px;
+        }
     }
 
     .escribinos{
@@ -158,6 +160,19 @@
     .footer_texto2{
         padding: 20px 20px;
     }
+    
+    .main2{
+
+        .main_titulo {
+            padding-top: 30px;
+        }
+    }
+    .section_tienda{
+        
+        .tienda_img{
+            margin-bottom: 40px;
+        }
+    }
 
     .boton_equipo{
         display: inline-block;
@@ -219,8 +234,7 @@
     
         .main_titulo{
             font-size: 24px;
-            padding: 0px 10px;
-            margin-top: 30px;
+            margin-top: 80px;
         }
     
         .main_texto{
@@ -234,15 +248,26 @@
         }
     }
 
-    .tienda_img{
-        margin: 10px;
-        width: 200px;
-        height: 200px;
+    .section_tienda{
+        padding-top: 60px;
+        
+        .tienda_titulo{
+            margin-top: 20px;
+        }
+        
+        .tienda_img{
+            margin: 10px;
+            width: 200px;
+            height: 200px;
+        }
     }
 
     .mapa{
         width: 80%;
         padding-bottom: 20px;
+    }
+    .section_equipo {
+        padding-top: 80px;
     }
 
     .escribinos{
@@ -292,13 +317,5 @@
         "img6";
         align-content: center;
         height: auto;
-    }
-
-    .margen_queries{
-        padding-top: 50px;
-    }
-
-    .margen_queries2{
-        padding-top: 25px;
     }
 }
