@@ -10,36 +10,62 @@
         margin-left: 20px;
     }
 
+    .footer{
+        padding-top: 30px;
+    }
+        .footer_titulo{
+            padding-left: 50px;
+        }
+    
+        .footer_texto1{
+            padding-left: 50px;
+            padding-top: 0px;
+        }
+        
+        .footer_texto2{
+            padding: 0px 20px 0px 20px;
+            text-align: justify;
+        }
+    
+        .copy{
+            padding-top: 20px;
+        }
+    
+
     .main{
         margin-top: 90px;
         min-height: 400px;
-    }
-
-    .titulo{
-        padding-top: 120px;
-        font-size: 50px;
-        font-weight: normal;
-        text-shadow:  1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
-    }
-
-    .parrafo{
-        display: none;
+    
+        .titulo{
+            padding-top: 120px;
+            font-size: 50px;
+            font-weight: normal;
+            text-shadow:  1px 1px 2px black, 0 0 1em white, 0 0 0.2em white;
+        }
+    
+        .parrafo{
+            display: none;
+        }
     }
 
     .main2{
         margin-top: 90px;
         padding: 20px;
+
+        .main_titulo {
+            font-size: 26px;
+        }
+    
+        .main_texto{
+            font-size: 18px;
+            padding: 15px 10px ;
+        }
+
+        .main_titulo2{
+            font-size: 18px;
+        }    
     }
     
-    .main_titulo {
-        font-size: 26px;
-    }
-
-    .main_texto{
-        font-size: 18px;
-        padding: 15px 10px ;
-    }
-
     .img_prod{
         margin-top: 30px;
         border-radius: 30px;
@@ -55,45 +81,9 @@
         height: 250px;
     }
 
-    .main_titulo2{
-        font-size: 18px;
-    }
-    
     .escribinos{
         padding: 0px 100px;
         font-size: 17x;
-    }
-    
-    .div_contacto{
-        flex-direction: column;
-        padding-top: 0px;
-        padding-bottom: 0px;
-    }
-    
-    .formulario{
-        padding: 0px 100px;
-    }
-    
-    .footer{
-        padding-top: 30px;
-    }
-
-    .footer_titulo{
-        padding-left: 50px;
-    }
-
-    .footer_texto1{
-        padding-left: 50px;
-        padding-top: 0px;
-    }
-    
-    .footer_texto2{
-        padding: 0px 20px 0px 20px;
-        text-align: justify;
-    }
-
-    .copy{
-        padding-top: 20px;
     }
 
     .grid {
@@ -107,6 +97,16 @@
         align-content: stretch;
         height: auto;
     }      
+
+    .div_contacto{
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    
+    .formulario{
+        padding: 0px 100px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -116,7 +116,7 @@
 
     .nav {
         display: none;
-        color: black;
+        color: $font-color;
         background-color: white;
         position: fixed;
         top: 0;
@@ -124,32 +124,32 @@
         z-index: 1000000;
         width: 80%;
         height: 100vh;
-    }
-    
-    .nav__lista {
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        gap: 1rem;
-        height: 100%;
-        height: 100vh;
+   
+        .nav__lista {
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 1rem;
+            height: 100%;
+            height: 100vh;
+        }   
+        .nav__item:hover .submenu{
+            display: none;
+        }
     }
 
     .nav:target{
         display: block;
     }
-
+    
     .nav__item-oculto {
         display: block;
-    }
-
-    .nav__item:hover .submenu{
-        display: none;
     }
 
     .footer_titulo{
         padding-left: 20px;
     }
+
     .footer_texto1{
         padding-left: 20px;
         padding-top: 0px;
@@ -161,6 +161,10 @@
 
     .boton_equipo{
         display: inline-block;
+    }
+
+    .img_nos{
+        margin: 30px 0px;
     }
 
     .section_equipo{
@@ -178,44 +182,6 @@
         margin-left: 20px;
     }
 
-    .main{
-        margin-top: 50px;
-        min-height: 300px;
-    }
-
-    .titulo{
-        font-size: 36px;
-
-    }
-
-    .main2{
-        margin-top: 50px;
-        padding: 0px;
-        padding-bottom: 20px;
-    }
-
-    .main_titulo{
-        font-size: 24px;
-        padding: 0px 10px;
-        margin-top: 30px;
-    }
-
-    .main_texto{
-        font-size: 14px;
-        padding: 20px 10px;
-    }
-
-    .main_titulo2{
-        padding: 0px;
-        font-size: 18px;
-    }
-
-    .tienda_img{
-        margin: 10px;
-        width: 200px;
-        height: 200px;
-    }
-
     .footer_titulo{
         padding: 0px 30px;
     }
@@ -226,6 +192,52 @@
 
     .footer_texto2{
         padding: 10px 30px;
+    }
+
+    .red_icono{
+        width: 25px;
+        height: 25px;
+    }
+
+    .copy{
+        font-size: 12px;
+    }
+
+    .main{
+        margin-top: 50px;
+        min-height: 300px;
+    
+        .titulo{
+            font-size: 36px;
+        }
+    }
+
+    .main2{
+        margin-top: 50px;
+        padding: 0px;
+        padding-bottom: 20px;
+    
+        .main_titulo{
+            font-size: 24px;
+            padding: 0px 10px;
+            margin-top: 30px;
+        }
+    
+        .main_texto{
+            font-size: 14px;
+            padding: 20px 10px;
+        }
+    
+        .main_titulo2{
+            padding: 0px;
+            font-size: 18px;
+        }
+    }
+
+    .tienda_img{
+        margin: 10px;
+        width: 200px;
+        height: 200px;
     }
 
     .mapa{
@@ -249,30 +261,22 @@
         padding-left: 40px;
         padding-right: 40px;
         padding-top: 10px;
-    }
 
-    .form-label {
-        font-size: 14px;
-    }
+        .mb-3 {
+            margin-bottom: 0px;
+            
+            .form-label {
+                font-size: 14px;
+            }
 
-    .form-control {
-        font-size: 14px;
-    }
+            .form-control {
+                font-size: 14px;
+            }
 
-    .mb-3 {
-        margin-bottom: 0px;
-    }
-
-    .boton{
-        font-size: 14px;
-    }
-    .red_icono{
-        width: 25px;
-        height: 25px;
-    }
-
-    .copy{
-        font-size: 12px;
+            .boton{
+                font-size: 14px;
+            }
+        }
     }
 
     .grid {

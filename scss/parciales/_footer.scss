@@ -1,15 +1,14 @@
 .footer{ 
-    background-color: #edfbfd;
+    background-color: $background-footer;
     padding-top: 50px;
     padding-right: 0px;
     padding-left: 0px;
 }
-
 .footer_titulo {
-    color: black;
-    font-style: normal;
+    color: $font-color;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-family: $fontfamily;
     font-size: 20px;
     padding-bottom: 30px;
     margin-top: 10px;
@@ -34,17 +33,17 @@
     margin-bottom: 0px;
     text-align: justify;
 }
-
+    
 .red-social {
     display: flex;
     align-items: center;
     gap: 15px;
     padding-bottom: 30px;
-}
-
-.red_icono{
-    width: 35px;
-    height: 35px;
+    
+    .red_icono{
+        width: 35px;
+        height: 35px;
+    }
 }
 
 .copy {
@@ -54,4 +53,3 @@
     text-align: center;
     margin: 0 auto;
 }
-

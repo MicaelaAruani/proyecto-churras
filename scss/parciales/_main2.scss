@@ -1,53 +1,53 @@
 .main2{
-    background-color: antiquewhite;
-    color: black;
+    background-color: $background-main;
+    color: $font-color;
     font-size: 18px;
     font-style: normal;
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontfamily;
     text-align: center;
     line-height: normal;
     text-decoration: none;
     list-style: none;
     padding: 40px;
     margin-top: 100px;
-}
 
-.main_titulo{
-    color: black;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    line-height: 1.5; 
-    text-transform:uppercase; 
-    text-decoration: none;
-    text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
-}
+    .main_titulo{
+        color: $font-color;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 400;
+        font-family: $fontfamily;
+        text-align: center;
+        line-height: 1.5; 
+        text-transform:uppercase; 
+        text-decoration: none;
+        text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
+    }
 
-.main_texto{
-    color: black;
-    font-size: 20px;
-    font-style:normal;
-    font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    line-height:initial; 
-    text-transform:initial; 
-    text-decoration: none;
-    padding: 20px 50px 10px 50px;
-}
+    .main_texto{
+        color: $font-color;
+        font-size: 20px;
+        font-style:normal;
+        font-weight: normal;
+        font-family: $fontfamily;
+        text-align: center;
+        line-height:initial; 
+        text-transform:initial; 
+        text-decoration: none;
+        padding: 20px 50px 10px 50px;
+    }
 
-.main_titulo2{
-    color: black;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    line-height: 1.5; 
-    text-transform: initial; 
-    text-decoration: none;
-    padding-bottom: 15px;
-    padding-top: 15px;
+    .main_titulo2{
+        color: $font-color;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: $fontfamily;
+        text-align: center;
+        line-height: 1.5; 
+        text-transform: initial; 
+        text-decoration: none;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
 }

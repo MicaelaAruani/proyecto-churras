@@ -5,11 +5,11 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $fontfamily;
 }
 
 a {
-    color: black;
+    color: $font-color;
     text-decoration: none;
     display: block;
 }

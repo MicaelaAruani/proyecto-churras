@@ -1,6 +1,6 @@
 .header {
     background-color: white;
-    color: black;
+    color: $font-color;
     position: fixed;
     top: 0;
     left: 0;
@@ -16,46 +16,56 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.144);
-}
 
-.nav__lista {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 0;
-    padding-left: 0;
-}
+    .header__logo {
+        width: 100px;
+        height: 100px;
+        margin-left: 40px;
+    }
 
-.nav__item {
-    margin-left: 16px;
-    margin-right: 20px;
-    position: relative;
+    .header__logo:hover{
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.144);   
+    }
+    
+    .nav__lista {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0;
+        padding-left: 0;
+
+        .nav__item {
+            margin-left: 16px;
+            margin-right: 20px;
+            position: relative;
+
+            .submenu{
+                color: #212529;
+                font-size: 16px;
+                text-decoration: none;
+                margin-left: 0px;
+                list-style: none;
+                position: absolute;
+                top: 23px;
+                background-color:  rgb(252, 249, 244);
+                display: none;
+                padding: 5px 10px;
+            }        
+        }
+    }
+
+    .nav__item:hover {
+        font-weight: bold;
+    }
+
+    .nav__item:hover .submenu{
+        display: flex;
+        font-weight: normal;
+    }
 }
 
 .nav__item-oculto {
-    display: none;
-}
-
-.submenu{
-    color: #212529;
-    font-size: 16px;
-    text-decoration: none;
-    margin-left: 0px;
-    list-style: none;
-    position: absolute;
-    top: 23px;
-    background-color:  rgb(252, 249, 244);
-    display: none;
-    padding: 5px 10px;
-}
-
-.nav__item:hover {
-    font-weight: bold;
-}
-
-.nav__item:hover .submenu{
-    display: flex;
-    font-weight: normal;
+        display: none;
 }
 
 .header__icono {
@@ -64,14 +74,4 @@
     color: black;
     text-decoration: none;
     display: none;
-}
-
-.header__logo {
-    width: 100px;
-    height: 100px;
-    margin-left: 40px;
-}
-
-.header__logo:hover{
-    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.144);   
 }
