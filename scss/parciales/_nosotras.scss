@@ -9,3 +9,52 @@
 .mapa{
     width: 70%;
 }
+
+.boton_equipo{
+    display: none;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: 2px double white;
+    background-color:#fa788e;
+    padding: 6px 8px 6px 8px;
+    margin-top: 200px;
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.144);
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.boton_equipo:hover {
+    color: white;/* color de fuente hover */
+}
+
+.boton_equipo::after {
+    content: "";
+    background: #8A2387;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transform: scale(0, 0);
+    transition: all 0.3s ease;
+}
+
+.boton_equipo:hover::after {
+    transition: all 0.3s ease-out;
+    transform: scale(1, 1);
+}

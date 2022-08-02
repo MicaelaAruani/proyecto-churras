@@ -1,3 +1,4 @@
+@import "./parciales/variables"; //Siempre al inicio
 @import "./parciales/base";
 @import "./parciales/header.scss";
 @import "./parciales/footer";
@@ -6,6 +7,7 @@
 @import "./parciales/productos";
 @import "./parciales/tienda";
 @import "./parciales/nosotras";
+@import "./parciales/equipo";
 @import "./parciales/galeria";
 @import "./parciales/contacto";
 @import "./parciales/faq";
