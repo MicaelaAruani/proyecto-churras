@@ -39,6 +39,7 @@ a {
   width: 100px;
   height: 100px;
   margin-left: 40px;
+  border-radius: 100rem;
 }
 
 .header .header__logo:hover {
