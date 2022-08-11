@@ -1,13 +1,12 @@
 .main{
-    background-image: url(../imagenes/productos.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100%;
-    min-height: 500px;    
-    min-height: 100vh;
-    margin-top: 100px;
+    background-image: map-get($main, imagen);
+    background-repeat: map-get($main, repeticion);
+    background-size: map-get($main, tamaño);
+    background-position: map-get($main, posicion);
+    background-attachment: map-get($main, attach);
+    width: map-get($main, ancho);
+    min-height: map-get($main, alto-min);
+    margin-top: map-get($main, top);
 
     .titulo{
         color: $font-color;

@@ -18,8 +18,7 @@
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.144);
 
     .header__logo {
-        width: 100px;
-        height: 100px;
+        @include sizes (100px, 100px);
         margin-left: 40px;
         border-radius: 100rem;
     }

@@ -21,9 +21,8 @@
     }
     
     .equipo_img_Pepa {
+        @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
-        width: 300px;
-        height: 400px;
         border-radius: 5px;
         background-image: url(../imagenes/Pepa.jpeg);
         background-size: cover;
@@ -33,9 +32,8 @@
     }
     
     .equipo_img_Feli {
+        @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
-        width: 300px;
-        height: 400px;
         border-radius: 5px;
         background-image: url(../imagenes/Feli.jpeg);
         background-size: cover;
@@ -45,9 +43,8 @@
     }
     
     .equipo_img_Carmen{
+        @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
-        width: 300px;
-        height: 400px;
         border-radius: 5px;
         background-image: url(../imagenes/Carmen.jpeg);
         background-size: cover;

@@ -14,11 +14,10 @@
     }
 
     .tienda_img{
+        @include sizes (320px, 320px);
         margin: 25px 30px 80px 30px;
         border: 3px solid white;
         padding: 5px 5px 5px 5px;
-        width:320px;
-        height: 320px;
         border-radius: 20px;
         overflow: hidden;
     }

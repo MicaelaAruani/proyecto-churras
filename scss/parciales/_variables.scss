@@ -1,6 +1,29 @@
 $fontfamily: 'Open Sans', sans-serif;
+$font-color: black;
 $background-footer: #edfbfd;
-$background-main: antiquewhite;
+$background-main2: antiquewhite;
 $boton_color: #8A2387;
 $shadow: 3px 5px 5px rgba(3, 32, 51, .8);
-$font-color: black;
+$ancho-equipo: 300px;
+$alto-equipo: 400px;
+$main: (
+    imagen: url(../imagenes/productos.jpeg),
+    repeticion: no-repeat,
+    tamaño: cover,
+    posicion: center,
+    attach: fixed,
+    ancho: 100%,
+    alto-min: 100vh,
+    top: 100px,
+);
+
+@mixin sizes ($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin bases ($background){
+    background-color: $background;
+    color: $font-color;
+    font-family: $fontfamily;
+}

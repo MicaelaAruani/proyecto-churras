@@ -1,9 +1,7 @@
 .main2{
-    background-color: $background-main;
-    color: $font-color;
+    @include bases ($background-main2);
     font-size: 18px;
     font-style: normal;
-    font-family: $fontfamily;
     text-align: center;
     line-height: normal;
     text-decoration: none;
@@ -25,29 +23,22 @@
     }
 
     .main_texto{
-        color: $font-color;
+        @extend .main_titulo;
         font-size: 20px;
-        font-style:normal;
         font-weight: normal;
-        font-family: $fontfamily;
-        text-align: center;
         line-height:initial; 
         text-transform:initial; 
-        text-decoration: none;
         padding: 20px 50px 10px 50px;
+        text-shadow: none;
     }
 
     .main_titulo2{
-        color: $font-color;
+        @extend .main_titulo;
         font-size: 20px;
-        font-style: normal;
         font-weight: bold;
-        font-family: $fontfamily;
-        text-align: center;
-        line-height: 1.5; 
         text-transform: initial; 
-        text-decoration: none;
         padding-bottom: 15px;
         padding-top: 15px;
+        text-shadow: none;
     }
 }
