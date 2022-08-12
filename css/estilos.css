@@ -835,6 +835,12 @@ ul {
     padding: 0px;
     font-size: 18px;
   }
+  .img_prod {
+    margin-top: 30px;
+    box-shadow: none;
+    height: 300px;
+    border-radius: 10px;
+  }
   .section_tienda {
     padding-top: 60px;
   }
@@ -849,6 +855,11 @@ ul {
   .mapa {
     width: 80%;
     padding-bottom: 20px;
+  }
+  .img_nos {
+    box-shadow: none;
+    height: 300px;
+    border-radius: 10px;
   }
   .section_equipo {
     padding-top: 80px;
