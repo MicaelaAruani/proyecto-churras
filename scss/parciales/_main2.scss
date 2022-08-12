@@ -21,7 +21,10 @@
         text-decoration: none;
         text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
     }
-
+    .margen_queries{
+        padding-top: 0px
+    }
+    
     .main_texto{
         @extend .main_titulo;
         font-size: 20px;

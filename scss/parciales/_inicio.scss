@@ -7,7 +7,14 @@
     width: map-get($main, ancho);
     min-height: map-get($main, alto-min);
     margin-top: map-get($main, top);
-
+    
+    .section{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
     .titulo{
         color: $font-color;
         font-size: 40px;
@@ -22,17 +29,18 @@
         padding-bottom: 20px;
         text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
     }
-
+    
     .parrafo{
-        color: $font-color;
+        color: black;
         font-size: 22px;
         font-style:normal;
         font-weight: normal;
-        font-family: $fontfamily;
+        font-family: 'Open Sans', sans-serif;
         text-align: center;
         line-height: 2; 
         text-transform:initial; 
         text-decoration: none;
-        padding: 0px 300px 0px 300px;
+        padding: 0px 350px 0px 350px;
     }
+
 }
