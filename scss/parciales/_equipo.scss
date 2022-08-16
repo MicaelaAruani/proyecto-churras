@@ -19,12 +19,23 @@
         text-align: center;
         padding: 10px;
     }
-    
-    .equipo_img_Pepa {
+
+    .equipo_titulo{
+        font-family: $fontfamily;
+        font-size: 30px;
+    }
+
+    .equipo_texto{
+        font-family: $fontfamily;
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+
+    .equipo_img_Fran {
         @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
         border-radius: 5px;
-        background-image: url(../imagenes/Pepa.jpeg);
+        background-image: url(../imagenes/Fran.jpeg);
         background-size: cover;
         box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
         overflow: hidden;
@@ -42,18 +53,18 @@
         background-position: center;
     }
     
-    .equipo_img_Carmen{
+    .equipo_img_Pau{
         @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
         border-radius: 5px;
-        background-image: url(../imagenes/Carmen.jpeg);
+        background-image: url(../imagenes/Pau.jpeg);
         background-size: cover;
         box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
         overflow: hidden;
         background-position: center;
     }
 
-    .equipo_img_Pepa:hover .content {
+    .equipo_img_Fran:hover .content {
         opacity: 1;
     }
                 
@@ -61,7 +72,7 @@
         opacity: 1;
     }
 
-    .equipo_img_Carmen:hover .content {
+    .equipo_img_Pau:hover .content {
         opacity: 1;
     }
 }
