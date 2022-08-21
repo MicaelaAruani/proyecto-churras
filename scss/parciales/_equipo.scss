@@ -20,12 +20,12 @@
         padding: 10px;
     }
 
-    .equipo_titulo{
+    .equipo_titulo {
         font-family: $fontfamily;
         font-size: 30px;
     }
 
-    .equipo_texto{
+    .equipo_texto {
         font-family: $fontfamily;
         font-size: 20px;
         padding: 0px 10px;
@@ -41,7 +41,7 @@
         overflow: hidden;
         background-position: center;
     }
-    
+
     .equipo_img_Feli {
         @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
@@ -52,8 +52,8 @@
         overflow: hidden;
         background-position: center;
     }
-    
-    .equipo_img_Pau{
+
+    .equipo_img_Pau {
         @include sizes ($ancho-equipo, $alto-equipo);
         margin: 30px;
         border-radius: 5px;
@@ -67,7 +67,7 @@
     .equipo_img_Fran:hover .content {
         opacity: 1;
     }
-                
+
     .equipo_img_Feli:hover .content {
         opacity: 1;
     }

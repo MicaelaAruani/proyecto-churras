@@ -1,15 +1,15 @@
-.main{
+.main {
     background-image: map-get($main, imagen);
     background-repeat: map-get($main, repeticion);
     background-size: map-get($main, tamaño);
     background-position: map-get($main, posicion);
-  /*  background-attachment: map-get($main, attach);*/
+    /*  background-attachment: map-get($main, attach);*/
     width: map-get($main, ancho);
     min-height: map-get($main, alto-min);
     margin-top: map-get($main, top);
     opacity: 0.90;
-    
-    .main__logo{
+
+    .main__logo {
         @include sizes (180px, 180px);
         border-radius: 100rem;
         text-align: center;
@@ -17,17 +17,31 @@
         box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.534);
     }
 
-    .frase{
+    .frase1 {
         text-align: center;
         color: $font-color;
         font-size: 24px;
-        font-style:normal;
+        font-style: normal;
         font-weight: normal;
         font-family: $fontfamily;
         text-align: center;
-        line-height: normal; 
-        text-transform:initial; 
+        line-height: normal;
+        text-transform: initial;
         text-decoration: none;
-        text-shadow: 1px 1px gray;/* -1px -1px gray;*/
+        text-shadow: 1px 1px gray;
+    }
+
+    .frase2 {
+        text-align: center;
+        color: $font-color;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: normal;
+        font-family: $fontfamily;
+        text-align: center;
+        line-height: normal;
+        text-transform: initial;
+        text-decoration: none;
+        text-shadow: 1px 1px gray;
     }
 }

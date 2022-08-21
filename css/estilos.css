@@ -219,7 +219,7 @@ p {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.534);
 }
 
-.main .frase {
+.main .frase1 {
   text-align: center;
   color: black;
   font-size: 24px;
@@ -231,7 +231,20 @@ p {
   text-transform: initial;
   text-decoration: none;
   text-shadow: 1px 1px gray;
-  /* -1px -1px gray;*/
+}
+
+.main .frase2 {
+  text-align: center;
+  color: black;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  line-height: normal;
+  text-transform: initial;
+  text-decoration: none;
+  text-shadow: 1px 1px gray;
 }
 
 .main2 {
@@ -246,6 +259,7 @@ p {
   list-style: none;
   padding: 40px;
   margin-top: 100px;
+  min-height: 90vh;
 }
 
 .main2 .main_titulo, .main2 .main_texto, .main2 .main_titulo2 {
@@ -375,6 +389,10 @@ p {
 
 .mapa {
   width: 70%;
+}
+
+.row2 {
+  flex-direction: row-reverse;
 }
 
 .boton_equipo {
@@ -527,7 +545,7 @@ p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 250px);
-  grid-template-areas: "img1 img2 img3"  "img1 img4 img5"  "img6 img4 img5";
+  grid-template-areas: "img1 img2 img3" "img1 img4 img5" "img6 img4 img5";
   gap: 1rem;
   justify-items: stretch;
   align-items: stretch;
@@ -536,36 +554,67 @@ p {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
+  /* .grid__logo {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: white;
+        color: white;
+        margin: 5px;
+        background-image: url(.../imagenes/logo.churras);
+        height: 40px;
+        width: auto;
+        border-radius: 100rem;
+        opacity: 0.60;
+    }*/
 }
 
 .grid .grid_img-1 {
   grid-area: img1;
+  position: relative;
 }
 
 .grid .grid_img-2 {
   grid-area: img2;
+  position: relative;
 }
 
 .grid .grid_img-3 {
   grid-area: img3;
+  position: relative;
 }
 
 .grid .grid_img-4 {
   grid-area: img4;
+  position: relative;
 }
 
 .grid .grid_img-5 {
   grid-area: img5;
+  position: relative;
 }
 
 .grid .grid_img-6 {
   grid-area: img6;
+  position: relative;
 }
 
 .grid .gal_img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.grid .grid__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  opacity: 0.7;
 }
 
 .escribinos {
@@ -771,9 +820,11 @@ p {
   .main .main__logo {
     margin: 100px 0px 10px 0px;
   }
-  .main .frase {
-    line-height: normal;
-    font-size: 20px;
+  .main .frase1 {
+    font-size: 22px;
+  }
+  .main .frase2 {
+    display: none;
   }
   .main2 .main_texto {
     padding: 0px 10px 20px 10px;
@@ -859,8 +910,8 @@ p {
     height: 120px;
     margin: 115px 0px 15px 0px;
   }
-  .main .frase {
-    font-size: 17px;
+  .main .frase1 {
+    display: none;
   }
   .main2 {
     padding: 0px;
@@ -1004,9 +1055,6 @@ p {
     height: 100px;
     margin: 105px 0px 10px 0px;
   }
-  .main .frase {
-    font-size: 16px;
-  }
   .section_tienda .tienda_titulo {
     font-size: 24px;
   }
@@ -1022,10 +1070,6 @@ p {
     height: 95px;
     margin: 95px 0px 10px 0px;
   }
-  .main .frase {
-    font-size: 15px;
-    text-shadow: 1px 1px gray, -1px -1px gray;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -1034,9 +1078,5 @@ p {
   }
   .main .main__logo {
     margin: 95px 0px 5px 0px;
-  }
-  .main .frase {
-    font-size: 13px;
-    text-shadow: 1px 1px gray, -1px -1px gray;
   }
 }

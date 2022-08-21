@@ -1,8 +1,12 @@
-.mapa{
+.mapa {
     width: 70%;
 }
 
-.boton_equipo{
+.row2{
+    flex-direction: row-reverse;
+}
+
+.boton_equipo {
     display: none;
     color: white;
     text-align: center;
@@ -14,7 +18,7 @@
     text-decoration: none;
     list-style: none;
     border: 2px double white;
-    background-color:#fa788e;
+    background-color: #fa788e;
     padding: 6px 8px 6px 8px;
     margin-bottom: 20px;
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.144);
@@ -25,15 +29,19 @@
 }
 
 .boton_equipo:hover {
-    color: white;/* color de fuente hover */
+    color: white;
+    /* color de fuente hover */
 }
 
 .boton_equipo::after {
     content: "";
-    background: $boton_color;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+    background: $boton_color;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F27121, #E94057, #8A2387);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     position: absolute;
     z-index: -1;
     padding: 16px 20px;
@@ -51,7 +59,7 @@
     transform: scale(1, 1);
 }
 
-.img_nos{
+.img_nos {
     object-fit: contain;
     margin-top: 0px;
     border-radius: 30px;

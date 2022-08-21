@@ -1,4 +1,4 @@
-.main2{
+.main2 {
     @include bases ($background-main2);
     font-size: 18px;
     font-style: normal;
@@ -8,44 +8,46 @@
     list-style: none;
     padding: 40px;
     margin-top: 100px;
+    min-height: 90vh;
 
-    .main_titulo{
+    .main_titulo {
         color: $font-color;
         font-size: 30px;
         font-style: normal;
         font-weight: 400;
         font-family: $fontfamily;
         text-align: center;
-        line-height: 1.5; 
-        text-transform:uppercase; 
+        line-height: 1.5;
+        text-transform: uppercase;
         text-decoration: none;
-        text-shadow:  1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
+        text-shadow: 1px 1px 1px black, 0 0 1em white, 0 0 0.2em white;
         padding-bottom: 10px;
     }
-    .margen_queries{
-        padding-top: 0px
-    }
-    
-    .margen_queries2{
+
+    .margen_queries {
         padding-top: 0px
     }
 
-    .main_texto{
+    .margen_queries2 {
+        padding-top: 0px
+    }
+
+    .main_texto {
         @extend .main_titulo;
         font-size: 19px;
         font-weight: normal;
-        line-height:initial; 
-        text-transform:initial; 
+        line-height: initial;
+        text-transform: initial;
         padding: 0px 20px 20px 20px;
         text-shadow: none;
-        line-height: normal; 
+        line-height: normal;
     }
 
-    .main_titulo2{
+    .main_titulo2 {
         @extend .main_titulo;
         font-size: 20px;
         font-weight: bold;
-        text-transform: initial; 
+        text-transform: initial;
         padding-bottom: 15px;
         padding-top: 10px;
         text-shadow: none;

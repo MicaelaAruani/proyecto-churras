@@ -1,4 +1,4 @@
-.footer{ 
+.footer {
     @include bases ($background-footer);
     padding-top: 50px;
     padding-right: 0px;
@@ -15,10 +15,11 @@
     justify-content: space-around;
 }
 
-.footer_izq{
+.footer_izq {
     width: 60%;
 }
-.footer_der{
+
+.footer_der {
     width: 40%;
 }
 
@@ -43,7 +44,7 @@
     margin-bottom: 0px;
 }
 
-.footer_texto2{
+.footer_texto2 {
     padding-top: 60px;
     padding-left: 80px;
     padding-right: 70px;
@@ -53,7 +54,7 @@
     justify-content: center;
     align-items: center;
 }
-    
+
 .red-social {
     display: flex;
     flex-direction: row;
@@ -64,8 +65,8 @@
     padding-left: 50px;
     padding-right: 220px;
     padding-bottom: 10px;
-    
-    .red_icono{
+
+    .red_icono {
         @include sizes (35px, 35px);
     }
 }

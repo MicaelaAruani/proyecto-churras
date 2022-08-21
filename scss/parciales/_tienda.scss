@@ -1,17 +1,17 @@
-.section_tienda{
+.section_tienda {
     width: 100%;
     margin-top: 30px;
     justify-content: center;
 
-    .tienda_titulo{
+    .tienda_titulo {
         color: $font-color;
         font-size: 26px;
         font-family: $fontfamily;
         font-weight: bold;
         font-style: normal;
     }
-    
-    .tienda_img{
+
+    .tienda_img {
         display: inline-block;
         width: 80%;
         height: 75%;

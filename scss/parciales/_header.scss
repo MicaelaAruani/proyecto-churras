@@ -25,7 +25,6 @@
     border-radius: 100rem;
 }
 
-
 .header__logo:hover {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.144);
 }
@@ -56,8 +55,7 @@
     display: none;
     padding: 5px 10px;
 }
-        
-    
+
 .nav__item:hover {
     font-weight: bold;
 }
@@ -67,9 +65,8 @@
     font-weight: normal;
 }
 
-
 .nav__item-oculto {
-        display: none;
+    display: none;
 }
 
 .header__icono {
@@ -79,7 +76,6 @@
     text-decoration: none;
     display: none;
 }
-
 
 .header__logo1 {
     @include sizes (100px, 100px);
