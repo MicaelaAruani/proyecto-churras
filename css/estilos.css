@@ -554,19 +554,6 @@ p {
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  /* .grid__logo {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        background-color: white;
-        color: white;
-        margin: 5px;
-        background-image: url(.../imagenes/logo.churras);
-        height: 40px;
-        width: auto;
-        border-radius: 100rem;
-        opacity: 0.60;
-    }*/
 }
 
 .grid .grid_img-1 {
